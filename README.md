@@ -11,6 +11,13 @@ The compiled binary will still be dependent on the shell specified in the first 
 
 shc itself is not a compiler such as cc, it rather encodes and encrypts a shell script and generates C source code with the added expiration capability. It then uses the system compiler to compile a stripped binary which behaves exactly like the original script. Upon execution, the compiled binary will decrypt and execute the code with the shell -c option.
 
+
+# Easier, faster and more simple apporach
+**Execute;** sudo apt update && sudo apt install --assume-yes gcc shc
+
+The above was execurted on a Chromebook with Chrome OS; it worked without any issues or problems that have been observed.
+
+
 ## Install
 
 ```bash
